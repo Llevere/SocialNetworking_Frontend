@@ -1,0 +1,166 @@
+#Feed-Post-Content{
+  background-color: #eeeeee;
+}
+
+#Post-Reply-Button-Reply{
+  
+}
+#Post-Reply-Button-Cancel{
+  margin-left: 5px;
+}
+
+#search-box, #Feed-Post-Submit-Post{
+  background-color: #3e4d34;
+}
+
+#Feed-Post-Submit-Button {
+  background-color: #9dc183;
+}
+
+#friend-requests {
+  background-color: #c3dfff;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  float: right;
+  margin-right: 25%;
+}
+
+#PostDeletion {
+  width: 25%;
+  text-align: center;
+  padding: 1.5%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#friend-requests:hover { 
+  background-color: #90c4ff;
+}
+
+#friendRequest-list li{
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-family: Roboto, sans-serif;
+  font-weight: bolder;
+  background-color: aliceblue;
+}
+
+#friendRequest-list li:hover {
+  background-color: #90c4ff;
+}
+
+#friendRequest-list li img {
+  height: 100px;
+  width: 100px;
+  padding-right: 5%;
+}
+
+
+#friendRequest-list{
+  padding: 0;
+  list-style-type: none;
+ 
+}
+
+
+#show-friend-requests{
+  position: absolute;
+  right: 0;
+  float: right;
+  width: 25%;
+  height: 50vh;
+  background-color: white;
+  z-index: 30;
+  scroll-behavior: smooth;
+}
+
+#deletePostButton:hover {
+  filter: brightness(90%);
+}
+
+#deletePostButton.cancelPost {
+  background-color: #ccc;
+  color: #000;
+}
+
+#deletePostButton.deletePost {
+  background-color: #8b0000;
+  color: #fff;
+}
+
+
+.liked {
+  background-color: #9dc183; /* Change this to the desired highlight color */
+  color: #fff; /* Change this to the desired text color */
+}
+
+.post {
+  background-color: #3e4d34;
+  color: white
+}
+
+.comment {
+  /*background-color: #5e734e;*/
+  border-left: '2px solid #ccc';
+  padding-left: '8px';
+}
+
+/* body{
+  background-color: #ffe4c4;
+  transition: background-color 1.0s ease-in-out;
+} */
+
+.search-user:hover {
+  background-color: #ececec;
+}
+
+#delete-friend-btn {
+  font-size: 16px;
+  padding: 10px; 
+  background-color: #c3dfff;
+  color: grey;
+  text-align: center;
+  border-radius: 5px;
+  outline: none; /* Remove default focus outline */
+  cursor: pointer
+}
+
+
+#add-friend-btn {
+  font-size: 16px;
+  padding: 10px; 
+  background-color: #c3dfff;
+  color: grey;
+  text-align: center;
+  border-radius: 5px;
+  outline: none; /* Remove default focus outline */
+  transition: background-color 0.3s, transform 0.3s, font-size 0.3s, opacity 0.5s; /* Add transitions for a smooth effect */
+}
+
+#add-friend-btn:hover {
+  background-color: #90c4ff;
+}
+
+#add-friend-btn:active {
+
+  font-size: 16px; 
+  outline: none; 
+}
+
+#add-friend-btn.released {
+  outline: none;
+  font-size: 13px; 
+}
+
+
+
